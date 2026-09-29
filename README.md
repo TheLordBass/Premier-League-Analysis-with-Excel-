@@ -4,6 +4,8 @@ An interactive Excel dashboard that rebuilds the Premier League table for any se
 
 ![Dashboard preview](images/dashboard.png)
 
+*The dashboard set to the 2021/22 season.*
+
 Choose a season with the spin button and the workbook pulls that season's 380 matches, recalculates the league table from scratch (wins, draws, losses, goals, points, cards, clean sheets, shots and conversion rate), marks the champions, European places and relegated clubs, and generates plain-English highlights such as the best defence, the most clinical attack and the fewest cards.
 
 ## Highlights
@@ -230,7 +232,7 @@ Only six clubs played in all 22 seasons: Man United, Chelsea, Arsenal, Liverpool
 
 - **Points deductions aren't applied**, because the table is calculated from results. The only one in this period is Portsmouth's 9-point deduction in 2009/10; they finish bottom either way.
 - **European places are assigned by league position** (1st–4th Champions League, 5th–6th Europa League). In reality, qualification also depended on domestic cup winners, and the Europa League was the UEFA Cup before 2009/10. In 2012/13, for example, Everton finished 6th but didn't qualify, because cup winners Swansea and Wigan took those places.
-- **Tied season leaders:** when clubs are level on a summary metric, the dashboard names the first alphabetically. In 2012/13, Reading and Wigan both conceded 73, but only Reading is named.
+- **Tied season leaders:** when clubs are level on a summary metric, the dashboard names the first alphabetically. In 2012/13, Reading and Wigan both conceded 73, but only Reading is named. The 2021/22 screenshot above shows the same effect twice: Liverpool is named for the best defence and the most clean sheets, although Man City matched them on both (26 conceded, 21 clean sheets).
 - **Shots on target aren't comparable before and after 2013/14.** They drop from about 14 per match in 2012/13 to about 9 in 2013/14 while total shots barely move, which points to a change in how the source recorded them. Goals per shot is comparable across all seasons; goals per shot on target is only comparable within each era.
 - **Referee names are inconsistent:** there are 157 different spellings for roughly 72 referees (for example "Mike Dean", "M Dean" and "Dean, M. L"), so referee analysis would need a cleaning step first.
 - **"Fewest cards"** is a simple count of yellow and red cards, not the Premier League's official Fair Play table.
@@ -262,3 +264,4 @@ Only six clubs played in all 22 seasons: Man United, Chelsea, Arsenal, Liverpool
 ## Author
 
 **Ibomeno Basiekanem** · [GitHub](https://github.com/TheLordBass) · [Portfolio](https://thelordbass.github.io)
+Page_UpPage_UpPage_Up
