@@ -264,4 +264,3 @@ Only six clubs played in all 22 seasons: Man United, Chelsea, Arsenal, Liverpool
 ## Author
 
 **Ibomeno Basiekanem** · [GitHub](https://github.com/TheLordBass) · [Portfolio](https://thelordbass.github.io)
-Page_UpPage_UpPage_Up
